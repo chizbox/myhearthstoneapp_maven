@@ -16,7 +16,6 @@ import com.hearthstone.service.MainListService;
 import com.hearthstone.service.UserAccountService;
 
 @Controller
-// @RequestMapping("/loginForm.html")
 public class LoginController {
 
 	@Autowired
@@ -65,5 +64,9 @@ public class LoginController {
 		request.getSession().setAttribute("user", null);
 		return "main";
 	}
-
+	
+	@RequestMapping("/register")
+	public String register(){
+		return "user_registration";
+	}
 }

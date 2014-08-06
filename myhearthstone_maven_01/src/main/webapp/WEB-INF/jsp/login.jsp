@@ -9,13 +9,17 @@
 	 		
 	 		<tr>
 	 			<td>Password:</td>
-	 			<td><input type='text' name='password' value='${loginForm.password}'/></td>
+	 			<td><input type='password' name='password' value='${loginForm.password}'/></td>
 	 		</tr>
 	 		
 	 		<tr>
 	 			<td>
 	 				<input type='submit' name='submit' value='Submit'/>
 	 			</td>
+	 			
+	 			<td> 
+	 				<a href='register.html'>Register</a>
+				</td>
 	 		</tr>
 	 	</table>
 	 </form>
